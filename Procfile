@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* ServerApp $PORT
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.twilio.ServerApp $PORT
