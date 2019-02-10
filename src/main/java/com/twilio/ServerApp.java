@@ -40,6 +40,8 @@ public class ServerApp {
 
     public static void main(String[] args) {
 
+        port(Integer.valueOf(System.getenv("PORT")));
+
         // Serve static files from src/main/resources/public
         staticFileLocation("/public");
 
