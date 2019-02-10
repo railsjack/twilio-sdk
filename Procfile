@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -Dserver.port=$PORT -jar target/*.jar  
+web: java $JAVA_TOOL_OPTIONS -Dserver.port=$PORT -jar target/sdk-starter-1.0-SNAPSHOT.jar
