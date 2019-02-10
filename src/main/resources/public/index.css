@@ -5,3 +5,8 @@
 .config-value.unset {
     color:darkred;
 }
+
+.config-value{
+	display: none;
+}
+
