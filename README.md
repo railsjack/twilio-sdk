@@ -115,4 +115,6 @@ ngrok http 4567
 ```
 
 ## License
+## web: java -cp target/classes:target/dependency/* com.twilio.ServerApp
+
 MIT
